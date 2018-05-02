@@ -7,7 +7,7 @@ const config = require('kubernetes-client').config;
 
 const bodyParser = require('body-parser');
 const app = express();
-const port =process.env.PORT||3000;
+const port = process.env.PORT||3000;
 
 const service_name = "azure-minecraft";
 
